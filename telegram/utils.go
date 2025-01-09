@@ -17,7 +17,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/amarnathcjd/gogram/internal/utils"
+	"github.com/egovorukhin/gogram/internal/utils"
 	"github.com/pkg/errors"
 )
 

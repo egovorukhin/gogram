@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="https://github.com/amarnathcjd/gogram">
+    <a href="https://github.com/egovorukhin/gogram">
         <img src="https://i.imgur.com/RE1M0sM.png" alt="Gogram" width="256">
     </a>
     <br>
@@ -8,7 +8,7 @@
     <b>
     <a href="https://gogramdoc.vercel.app">documentation</a>
     &nbsp;•&nbsp;
-    <a href="https://github.com/amarnathcjd/gogram/releases">releases</a>
+    <a href="https://github.com/egovorukhin/gogram/releases">releases</a>
     &nbsp;•&nbsp;
     <a href="https://t.me/rosexchat">telegram chat</a>
     </b>
@@ -16,8 +16,8 @@
 
 <div align='center'>
 	
-[![GoDoc](https://godoc.org/github.com/amarnathcjd/gogram?status.svg)](https://godoc.org/github.com/amarnathcjd/gogram)
-[![Go Report Card](https://goreportcard.com/badge/github.com/amarnathcjd/gogram)](https://goreportcard.com/report/github.com/amarnathcjd/gogram)
+[![GoDoc](https://godoc.org/github.com/egovorukhin/gogram?status.svg)](https://godoc.org/github.com/egovorukhin/gogram)
+[![Go Report Card](https://goreportcard.com/badge/github.com/egovorukhin/gogram)](https://goreportcard.com/report/github.com/egovorukhin/gogram)
 [![License](https://img.shields.io/github/license/amarnathcjd/gogram.svg)](https://img.shields.io/github/license/amarnathcjd/gogram.svg)
 [![GitHub stars](https://img.shields.io/github/stars/amarnathcjd/gogram.svg?style=social&label=Stars)](https://img.shields.io/github/stars/amarnathcjd/gogram.svg?style=social&label=Stars)
 [![GitHub forks](https://img.shields.io/github/forks/amarnathcjd/gogram.svg?style=social&label=Fork)](https://img.shields.io/github/forks/amarnathcjd/gogram.svg?style=social&label=Fork)
@@ -39,7 +39,7 @@ identity (bot API alternative) using Go.</p>
 <p>please note that gogram requires Go <b>1.18</b> or later to support go-generics</p>
 
 ```bash
-go get -u github.com/amarnathcjd/gogram/telegram
+go get -u github.com/egovorukhin/gogram/telegram
 ```
 
 ## quick start
@@ -47,7 +47,7 @@ go get -u github.com/amarnathcjd/gogram/telegram
 ```golang
 package main
 
-import "github.com/amarnathcjd/gogram/telegram"
+import "github.com/egovorukhin/gogram/telegram"
 
 func main() {
 	client, err := telegram.NewClient(telegram.ClientConfig{

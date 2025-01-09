@@ -15,7 +15,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	mtproto "github.com/amarnathcjd/gogram"
+	mtproto "github.com/egovorukhin/gogram"
 	"github.com/pkg/errors"
 )
 

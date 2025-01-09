@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/amarnathcjd/gogram/telegram"
+	"github.com/egovorukhin/gogram/telegram"
 )
 
 const (

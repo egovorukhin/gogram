@@ -8,11 +8,11 @@ import (
 	"path/filepath"
 	"reflect"
 
-	"github.com/amarnathcjd/gogram/internal/encoding/tl"
-	"github.com/amarnathcjd/gogram/internal/mtproto/messages"
-	"github.com/amarnathcjd/gogram/internal/mtproto/objects"
-	"github.com/amarnathcjd/gogram/internal/session"
-	"github.com/amarnathcjd/gogram/internal/utils"
+	"github.com/egovorukhin/gogram/internal/encoding/tl"
+	"github.com/egovorukhin/gogram/internal/mtproto/messages"
+	"github.com/egovorukhin/gogram/internal/mtproto/objects"
+	"github.com/egovorukhin/gogram/internal/session"
+	"github.com/egovorukhin/gogram/internal/utils"
 	"github.com/pkg/errors"
 )
 

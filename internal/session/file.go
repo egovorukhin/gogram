@@ -12,8 +12,8 @@ import (
 	"syscall"
 	"time"
 
-	aes "github.com/amarnathcjd/gogram/internal/aes_ige"
-	"github.com/amarnathcjd/gogram/internal/encoding/tl"
+	aes "github.com/egovorukhin/gogram/internal/aes_ige"
+	"github.com/egovorukhin/gogram/internal/encoding/tl"
 	"github.com/pkg/errors"
 )
 
