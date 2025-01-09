@@ -1,4 +1,4 @@
-module github.com/amarnathcjd/gogram
+module github.com/egovorukhin/gogram
 
 go 1.23
 
