@@ -64,9 +64,9 @@ func dialHTTP(s *url.URL, addr string) (net.Conn, error) {
 	}
 
 	// Check the response status code
-	if string(buf[:9]) != "HTTP/1.1 " {
+	/*if string(buf[:9]) != "HTTP/1.1 " {
 		return nil, errors.New("HTTP connect failed")
-	}
+	}*/
 	if string(buf[9:12]) != "200" {
 		return nil, errors.New("HTTP connect failed")
 	}
